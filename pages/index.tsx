@@ -71,7 +71,7 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/james-mbugua-78a63917b/"><AiFillLinkedin className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
               <a href="https://github.com/James-Toru"><AiFillGithub className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
             </div>
-            <div className="z-40 mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="flex justify-center items-center z-40 mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={toru} layout="fill" objectFit="cover" alt={''} />
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
             <h3 className="cursor-pointer text-3xl  ml-40 mr-40 py-1 text-cyan-300 ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I have done remote work for
               <span className="text-cyan-500"> agencies </span>
               and <span className="text-cyan-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -114,7 +114,7 @@ export default function Home() {
                 Frontend Development
               </h3>
               <p className="py-2 text-gray-700 dark:text-gray-200">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
               <h4 className="py-4 text-cyan-500">Frontend Integration using:</h4>
@@ -144,9 +144,6 @@ export default function Home() {
             <h3 className="text-3xl py-1 text-cyan-300 ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Take a look at some of the various projects I have worked on.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              
             </p>
           </div>
           <div className="flex justify-center pt-10 bg-transparent">
@@ -257,15 +254,15 @@ export default function Home() {
           </div>
           <div className="text-cyan-300">
             <ul className="flex">
-              <li className="p-1"><a href="#Services">Services</a></li>
-              <li className="p-1"><a href="#Portfolio">Portfolio</a></li>
-              <li className="p-1"><a href="#Contact">Contact</a></li>
+              <li className="p-1 hover:text-white"><a href="#Services">Services</a></li>
+              <li className="p-1 hover:text-white"><a href="#Portfolio">Portfolio</a></li>
+              <li className="p-1 hover:text-white"><a href="#Contact">Contact</a></li>
             </ul>
           </div>
           <div className="flex text-cyan-300 text-xl">
-            <a className="px-1" href="https://twitter.com/Gt0ru"><AiFillTwitterCircle /></a>
-            <a className="px-1" href="https://www.linkedin.com/in/james-mbugua-78a63917b/"><AiFillLinkedin /></a>
-            <a className="px-1" href="https://github.com/James-Toru"><AiFillGithub /></a>
+            <a className="px-1 hover:text-white" href="https://twitter.com/Gt0ru"><AiFillTwitterCircle /></a>
+            <a className="px-1 hover:text-white" href="https://www.linkedin.com/in/james-mbugua-78a63917b/"><AiFillLinkedin /></a>
+            <a className="px-1 hover:text-white" href="https://github.com/James-Toru"><AiFillGithub /></a>
           </div>
           </div>
           <div className=" mr-10 ml-10 text-center border-t-2 border-gray-700">
