@@ -57,7 +57,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center items-center py-10">
             <h2 className="text-5xl py-2 text-cyan-300 font-medium dark:text-cyan-400 md:text-6xl">
               James Gatoru
             </h2>
@@ -72,8 +72,8 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/james-mbugua-78a63917b/"><AiFillLinkedin className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
               <a href="https://github.com/James-Toru"><AiFillGithub className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
             </div>
-            <div className="flex justify-center items-center z-40 mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={toru} layout="fill" objectFit="cover" alt={''} />
+            <div className="relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-72 h-72  overflow-hidden mt-20 md:h-96 md:w-96">
+              <Image src={toru} layout="fill" objectFit="cover"  alt={''} />
             </div>
           </div>
         </section>
@@ -152,7 +152,7 @@ export default function Home() {
             <div className="items-center">
             <div className="pb-3 text-center  items-center">
                 <h3 className="text-xl text-white">Umfana Initiative</h3>
-                <p className="py-2 text-gray-700">Developed the responsive website for Umfana global Foundation</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200">Developed the responsive website for Umfana global Foundation</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://umfanainitiative.org/">
                   View
@@ -166,7 +166,7 @@ export default function Home() {
             <div className="">
             <div className="pb-3 text-center z-100 items-center">
                 <h3 className="text-xl text-white">Aslice by Alice</h3>
-                <p className="py-2 text-gray-700">Design for a showcase website intended to be used by Aslice cake company</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200">Design for a showcase website intended to be used by Aslice cake company</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://www.figma.com/file/npKdfx2CwOVvo62RxyU2fo/Aslice?t=AyTY89xPEe3v2bcT-0">
                   View
@@ -180,7 +180,7 @@ export default function Home() {
             <div className="">
             <div className="pb-3 text-center z-100 items-center">
                 <h3 className="text-xl text-white">Rezz</h3>
-                <p className="py-2 text-gray-700">Design for a website that is intended to be used bystudents to find hostels around their universities</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200">Design for a website that is intended to be used bystudents to find hostels around their universities</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://www.figma.com/proto/qdjBQJeKqwmRZuzACd5qIQ/Web_design?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2">
                   View
@@ -194,7 +194,7 @@ export default function Home() {
             <div className="">
               <div className="pb-3 text-center z-100 items-center">
                 <h3 className="text-xl text-white">Lugawa</h3>
-                <p className="py-2 text-gray-700">Front end markup for Lugawa travelling website. Includes design of the company logo and website.</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200">Front end markup for Lugawa travelling website. Includes design of the company logo and website.</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://github.com/James-Toru/Lugawa">
                   View
@@ -208,7 +208,7 @@ export default function Home() {
             <div className="">
               <div className="pb-3 text-center z-100 items-center">
                 <h3 className="text-xl text-white">Texplore</h3>
-                <p className="py-2 text-gray-700">Full on web apllication for Texplore online store.</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200">Full on web apllication for Texplore online store.</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://github.com/James-Toru/texplore">
                   View
@@ -217,7 +217,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-cover w-full h-full"
                 layout="responsive"
-                src={texplore} alt={''}              />
+                src={texplore} alt={''}/>
             </div>
             </Carousel>
           </div>
