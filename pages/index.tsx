@@ -72,14 +72,14 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/james-mbugua-78a63917b/"><AiFillLinkedin className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
               <a href="https://github.com/James-Toru"><AiFillGithub className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
             </div>
-            <div className="relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-72 h-72  overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-64 h-64  overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={toru} layout="fill" objectFit="cover"  alt={''} />
             </div>
           </div>
         </section>
         <section id="Services" className="px-10 md:px-20 lg:px-40">
           <div className="text-center">
-            <h3 className="cursor-pointer text-3xl  ml-40 mr-40 py-1 text-cyan-300 ">Services I offer</h3>
+            <h3 className="cursor-pointer text-3xl py-1 text-cyan-300 ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I have done remote work for
@@ -147,12 +147,12 @@ export default function Home() {
               Take a look at some of the various projects I have worked on.
             </p>
           </div>
-          <div className="flex justify-center pt-10 bg-transparent">
+          <div className="pt-10 bg-transparent">
             <Carousel>
             <div className="items-center">
-            <div className="pb-3 text-center  items-center">
+            <div className="pb-3 text-center items-center">
                 <h3 className="text-xl text-white">Umfana Initiative</h3>
-                <p className="py-2 text-gray-700 dark:text-gray-200">Developed the responsive website for Umfana global Foundation</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200 md:text-md">Developed the responsive website for Umfana global Foundation</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://umfanainitiative.org/">
                   View
@@ -166,7 +166,7 @@ export default function Home() {
             <div className="">
             <div className="pb-3 text-center z-100 items-center">
                 <h3 className="text-xl text-white">Aslice by Alice</h3>
-                <p className="py-2 text-gray-700 dark:text-gray-200">Design for a showcase website intended to be used by Aslice cake company</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200 ">Design for a showcase website intended to be used by Aslice cake company</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://www.figma.com/file/npKdfx2CwOVvo62RxyU2fo/Aslice?t=AyTY89xPEe3v2bcT-0">
                   View
