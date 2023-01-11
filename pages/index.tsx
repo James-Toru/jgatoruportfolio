@@ -230,7 +230,7 @@ export default function Home() {
             <FiPhone className="mr-2 "/>
             <h4>Call me</h4>
             </div>
-            <p className="text-gray-700 dark:text-gray-200">+25416708175</p>
+            <p className="text-gray-700 dark:text-gray-200">+254716708175</p>
             <div className="py-2 flex flex-row justify-center text-center items-center text-xl text-cyan-500">
             <HiOutlineMail className="mr-2"/>
             <h4 className="text-xl text-cyan-500">Email</h4>
