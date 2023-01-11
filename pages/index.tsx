@@ -180,7 +180,7 @@ export default function Home() {
             <div className="">
             <div className="pb-3 text-center z-100 items-center">
                 <h3 className="text-xl text-white">Rezz</h3>
-                <p className="py-2 text-gray-700 dark:text-gray-200">Design for a website that is intended to be used bystudents to find hostels around their universities</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200">Design for a website that is intended to be used by students to find hostels around their universities</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://www.figma.com/proto/qdjBQJeKqwmRZuzACd5qIQ/Web_design?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2">
                   View
