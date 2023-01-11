@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { ContactUs } from "../components/Contactus"
 
 import {
   AiFillTwitterCircle,
@@ -21,6 +22,7 @@ import umfana from "../public/umfana.png";
 import aslice from "../public/aslice.png";
 import rezz from "../public/rezz.png";
 import lugawa from "../public/lugawa.png";
+import texplore from "../public/texplore.png";
 
 
 export default function Home() {
@@ -47,7 +49,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="../public/resume.docx" download
                 >
                   Resume
                 </a>
@@ -65,9 +67,9 @@ export default function Home() {
               A developer with experience building full stack applications using a variety of technologies. Very open to learning and implementing new technologies.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-cyan-300 dark:text-cyan-400">
-              <a href=""><AiFillTwitterCircle className="hover:text-6xl hover:text-cyan-500 ease-out duration-300" /></a>
-              <a href=""><AiFillLinkedin className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
-              <a href=""><AiFillGithub className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
+              <a href="https://twitter.com/Gt0ru"><AiFillTwitterCircle className="hover:text-6xl hover:text-cyan-500 ease-out duration-300" /></a>
+              <a href="https://www.linkedin.com/in/james-mbugua-78a63917b/"><AiFillLinkedin className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
+              <a href="https://github.com/James-Toru"><AiFillGithub className="hover:text-6xl hover:text-cyan-500 ease-out duration-300"/></a>
             </div>
             <div className="z-40 mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={toru} layout="fill" objectFit="cover" alt={''} />
@@ -117,6 +119,8 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-cyan-500">Frontend Integration using:</h4>
               <p className="text-gray-800 py-1 dark:text-gray-200">Html/CSS</p>
+              <p className="text-gray-800 py-1 dark:text-gray-200">Javascript</p>
+              <p className="text-gray-800 py-1 dark:text-gray-200">Bootstrap</p>
               <p className="text-gray-800 py-1 dark:text-gray-200">React</p>
               <p className="text-gray-800 py-1 dark:text-gray-200">Tailwind</p>
             </div>
@@ -129,7 +133,7 @@ export default function Home() {
               <h4 className="py-4 text-cyan-500">Backend Services Include:</h4>
               <p className="text-gray-800 py-1 dark:text-gray-200">Build APIs</p>
               <p className="text-gray-800 py-1 dark:text-gray-200">Server Configuration</p>
-              <p className="text-gray-800 py-1 dark:text-gray-200">Website Deployement</p>
+              <p className="text-gray-800 py-1 dark:text-gray-200">Website Deployment</p>
               <p className="text-gray-800 py-1 dark:text-gray-200">Configuring SSL certificates</p>
               <p className="text-gray-800 py-1 dark:text-gray-200">Configuring Load Balancing</p>
             </div>
@@ -149,9 +153,9 @@ export default function Home() {
             <Carousel>
             <div className="items-center">
             <div className="pb-3 text-center  items-center">
-                <h3 className="text-xl text-cyan-300">Umfana Initiative</h3>
+                <h3 className="text-xl text-white">Umfana Initiative</h3>
                 <p className="py-2 text-gray-700">Developed the responsive website for Umfana global Foundation</p>
-                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" 
+                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://umfanainitiative.org/">
                   View
                 </a>
@@ -163,9 +167,9 @@ export default function Home() {
             </div>
             <div className="">
             <div className="pb-3 text-center z-100 items-center">
-                <h3 className="text-xl text-cyan-300">Aslice by Alice</h3>
+                <h3 className="text-xl text-white">Aslice by Alice</h3>
                 <p className="py-2 text-gray-700">Design for a showcase website intended to be used by Aslice cake company</p>
-                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" 
+                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://www.figma.com/file/npKdfx2CwOVvo62RxyU2fo/Aslice?t=AyTY89xPEe3v2bcT-0">
                   View
                 </a>
@@ -177,9 +181,9 @@ export default function Home() {
             </div>
             <div className="">
             <div className="pb-3 text-center z-100 items-center">
-                <h3 className="text-xl text-cyan-300">Rezz</h3>
+                <h3 className="text-xl text-white">Rezz</h3>
                 <p className="py-2 text-gray-700">Design for a website that is intended to be used bystudents to find hostels around their universities</p>
-                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" 
+                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://www.figma.com/proto/qdjBQJeKqwmRZuzACd5qIQ/Web_design?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2">
                   View
                 </a>
@@ -191,10 +195,10 @@ export default function Home() {
             </div>
             <div className="">
               <div className="pb-3 text-center z-100 items-center">
-                <h3 className="text-xl text-cyan-300">Lugawa</h3>
-                <p className="py-2 text-gray-700">Front end markup for Lugawa travelling website.</p>
-                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" 
-                href="">
+                <h3 className="text-xl text-white">Lugawa</h3>
+                <p className="py-2 text-gray-700">Front end markup for Lugawa travelling website. Includes design of the company logo and website.</p>
+                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
+                href="https://github.com/James-Toru/Lugawa">
                   View
                 </a>
               </div>
@@ -202,6 +206,20 @@ export default function Home() {
                 className="rounded-lg object-cover w-full h-full"
                 layout="responsive"
                 src={lugawa} alt={''}              />
+            </div>
+            <div className="">
+              <div className="pb-3 text-center z-100 items-center">
+                <h3 className="text-xl text-white">Texplore</h3>
+                <p className="py-2 text-gray-700">Full on web apllication for Texplore online store.</p>
+                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
+                href="https://github.com/James-Toru/texplore">
+                  View
+                </a>
+              </div>
+              <Image
+                className="rounded-lg object-cover w-full h-full"
+                layout="responsive"
+                src={texplore} alt={''}              />
             </div>
             </Carousel>
           </div>
@@ -227,16 +245,7 @@ export default function Home() {
             <p className="text-gray-700 dark:text-gray-200">Nairobi-Kenya</p>
           </div>
           <div className="flex flex-col p-5">
-            <form action="">
-              <div className="flex flex-col md:flex-row p-3 mb-2">
-              <input className="p-2 mb-3 rounded-md text-gray-700 md:mr-2 md:mb-0 dark:bg-gray-900 dark:border-cyan-500 dark:border-2 dark:text-gray-200" type="text" placeholder="Name" />
-              <input className="p-2 rounded-md text-gray-700 dark:bg-gray-900 dark:border-cyan-500 dark:border-2 dark:text-gray-200" type="email" name="" id="" placeholder="Email" />
-              </div>
-              <div className="flex flex-col p-3 ">
-              <textarea className="p-2 pb-5 rounded-md text-gray-700 dark:bg-gray-900 dark:border-cyan-500 dark:border-2 dark:text-gray-200" name="" id="" placeholder="Message"></textarea>
-              </div>
-              <button className="p-2 rounded-md border-2 border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-gray-200">Send Message</button> 
-            </form>
+            <ContactUs />
           </div>
           </div>
         </section>
@@ -254,9 +263,9 @@ export default function Home() {
             </ul>
           </div>
           <div className="flex text-cyan-300 text-xl">
-            <a className="px-1" href=""><AiFillTwitterCircle /></a>
-            <a className="px-1" href=""><AiFillLinkedin /></a>
-            <a className="px-1" href=""><AiFillGithub /></a>
+            <a className="px-1" href="https://twitter.com/Gt0ru"><AiFillTwitterCircle /></a>
+            <a className="px-1" href="https://www.linkedin.com/in/james-mbugua-78a63917b/"><AiFillLinkedin /></a>
+            <a className="px-1" href="https://github.com/James-Toru"><AiFillGithub /></a>
           </div>
           </div>
           <div className=" mr-10 ml-10 text-center border-t-2 border-gray-700">
