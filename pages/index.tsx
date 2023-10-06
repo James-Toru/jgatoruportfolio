@@ -24,6 +24,8 @@ import aslice from "../public/aslice.png";
 import rezz from "../public/rezz.png";
 import lugawa from "../public/lugawa.png";
 import texplore from "../public/texplore.png";
+import mechwangu from "../public/mechwangu.png";
+import kanisa from "../public/kanisa.png"
 
 
 export default function Home() {
@@ -162,6 +164,34 @@ export default function Home() {
                 className="rounded-lg object-cover w-full h-full hover:opacity-20"
                 layout="responsive"
                 src={umfana} alt={''} />
+            </div>
+            <div className="">
+            <div className="pb-3 text-center z-100 items-center">
+                <h3 className="text-xl text-white">Mechwangu</h3>
+                <p className="py-2 text-gray-700 dark:text-gray-200 ">Developed the front end application for the Mechwangu website where one can source for mechanics near them.</p>
+                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
+                href="https://mechwangu.co.ke/">
+                  View
+                </a>
+              </div>
+              <Image
+                className="rounded-lg object-cover w-full h-full"
+                layout="responsive"
+                src={mechwangu} alt={''}              />
+            </div>
+            <div className="">
+            <div className="pb-3 text-center z-100 items-center">
+                <h3 className="text-xl text-white">Kanisa App</h3>
+                <p className="py-2 text-gray-700 dark:text-gray-200 ">Developed a Church Management System hosted by Ellixar Technologies</p>
+                <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
+                href="https://kanisa.ellixar.com/">
+                  View
+                </a>
+              </div>
+              <Image
+                className="rounded-lg object-cover w-full h-full"
+                layout="responsive"
+                src={kanisa} alt={''}              />
             </div>
             <div className="">
             <div className="pb-3 text-center z-100 items-center">
