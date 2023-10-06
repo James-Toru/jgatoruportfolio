@@ -238,7 +238,7 @@ export default function Home() {
             <div className="">
               <div className="pb-3 text-center z-100 items-center">
                 <h3 className="text-xl text-white">Texplore</h3>
-                <p className="py-2 text-gray-700 dark:text-gray-200">Full on web apllication for Texplore online store.</p>
+                <p className="py-2 text-gray-700 dark:text-gray-200">Full stack web apllication for Texplore online store.</p>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:bg-gradient-to-r hover:from-white hover:to-white hover hover:text-cyan-500 hover:border-cyan-500" 
                 href="https://github.com/James-Toru/texplore">
                   View
